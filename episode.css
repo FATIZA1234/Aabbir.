@@ -1,0 +1,98 @@
+body{
+    background-image: url(photo\ centre.jpg);
+    background-size: cover;
+}
+.formBox{
+    display: flex;
+    position: relative;
+    padding: 80px;
+    width: 750px;
+    height: 520px;
+    background: transparent;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    top: 20px;
+    left: 350px;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+    position: relative;
+    bottom: 50px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.picture-container {
+    margin: 10px;
+    transition: transform 0.3s;
+
+}
+
+.picture-container img {
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+}
+
+.picture-container:hover {
+    transform: scale(1.2); 
+}
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    box-shadow: 0px 0px 12px black;
+}
+header button {
+    width: 140px ;
+    padding: 10 px;
+    margin-top: 20px;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    box-shadow: 0px 0px 8px whitesmoke;
+    font-family: "Tajawal", serif;
+    font-weight: bold;
+    transition: 1s;
+
+}
+header button:hover{
+    color: rgb(219, 185, 31);
+    box-shadow: 0px 0px 15px silver;
+    }
+header img{
+    width: 50px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+footer {
+
+    text-align: center;
+    padding: 10px 0px;
+    background: black;
+    color:ivory;
+    position: absolute;
+    width: 100%;
+    margin-top: 60px;
+}
+p {
+    color: white;
+    font-family: "Tajawal", serif;
+    font-weight: bold;
+    font-size: 20px;
+}
